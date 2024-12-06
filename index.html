@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <span>Descrição:</span>
+        <br>
+        <input type="text" id="caixadetexto"
+            placeholder="Adicione aqui uma tarefa">
+        <button onclick="adicionar()">Adicionar</button>
+        <br>
+        <div class="top">
+            <ul>
+                <li><span>Lavar roupas</span></li>
+                <button onclick="remover1()">Remover</button>
+
+                <br>
+
+                <li><span>Fazer comprar</span></li>
+                <button onclick="remover2()">Remover</button>
+
+                <br>
+
+                <li><span>Estudar</span></li>
+                <button onclick="remover3()">Remover</button>
+            </ul>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
